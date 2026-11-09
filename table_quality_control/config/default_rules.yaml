@@ -1,0 +1,13 @@
+name: Универсальный шаблон
+required_columns: []
+allow_extra_columns: true
+min_columns: 1
+types: {}
+required_values: []
+unique: []
+email_columns: []
+date_columns: []
+numeric_ranges: {}
+non_negative: []
+categories: {}
+date_order: []

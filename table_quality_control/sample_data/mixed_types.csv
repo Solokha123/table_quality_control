@@ -1,0 +1,4 @@
+student_id,age,email,group,start_date,end_date
+1,20,a@example.com,A,01.09.2024,10.09.2024
+2,двадцать,bad-email,D,01.09.2024,05.09.2024
+3,-5,c@example.com,C,01.09.2024,02.09.2024

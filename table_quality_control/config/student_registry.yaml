@@ -1,0 +1,22 @@
+name: Реестр студентов
+required_columns: [student_id, age, email, group, start_date, end_date]
+allow_extra_columns: false
+min_columns: 6
+types:
+  student_id: string
+  age: integer
+  start_date: date
+  end_date: date
+required_values: [student_id, group]
+unique:
+  - [student_id]
+email_columns: [email]
+date_columns: [start_date, end_date]
+numeric_ranges:
+  age: {min: 16, max: 100}
+non_negative: [age]
+categories:
+  group: [A, B, C]
+date_order:
+  - start: start_date
+    end: end_date
